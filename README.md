@@ -20,4 +20,9 @@ Identify the line if it is vertical or horizontal
 
 # Results
 1) Note: The test images are not vertical nor horizontal but they have slope
-2) Good Results: The model was able to identify well the components of the line slope whether if it is nearer to be horizontal or vertical
+2) Bad Results: The model was has a bias towards predicting vertical
+3) Good Results: If the line slope is near to 0, the model was able to predict the line to be horizontal
+
+# Conclusions:
+1) The model needs to be trained on different slopts greater than 45 and less 45 degree in order to be able to identify if the line is nearer to the vertical or horizontal line.
+2) The training dataset might have larger number of vertical lines compared to horizontal lines which is worth checking
