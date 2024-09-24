@@ -16,6 +16,7 @@ Identify the line if it is vertical or horizontal
 8) padding  = 0 # No padding
 9) stride   = 1 # use stride instead of maxpool
 10) batchnorm = 1
+11) Use of BCEWithLogitsLoss (BCE with sigmoid) for classification of horizontal or vertical line
 
 # Results
 1) Note: The test images are not vertical nor horizontal but they have slope
